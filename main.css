@@ -1,0 +1,116 @@
+body {
+	font-size: 16px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 100;
+	padding: 5px;
+	box-sizing: border-box;
+	/*background-color: #eee;*/
+}
+#resume {
+	background: #fff;
+	height: 850px;
+	width: 1100px;
+}
+strong {
+	font-weight: 400;
+}
+header {
+	text-align: center;
+}
+header ul {
+	list-style: none;
+}
+#name {
+	font-size: 50px;
+	line-height: 50px;
+}
+#occupation {
+	font-size: 26px;
+}
+#socialLinks {
+	font-size: 15px;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+#skills ul {
+	list-style: none;
+}
+#socialLinks li {
+	display: inline;
+	margin: 0 5px;
+}
+#socialLinks li i , h4 i {
+	margin-right: 4px;
+}
+
+.mainColor {
+	color: #b72200;
+}
+
+#leftColumn {
+	float: left;
+	width: 29%;
+	margin-right: 8px;
+}
+
+#rightColumn {
+	float: right;
+	width: 69%;
+}
+.sectionContent {
+	/* content in each section */
+	padding: 0 0 0 20px;
+}
+.sectionTitle {
+	margin: 8px 0 0;
+	font-size: 18px;
+}
+.sectionTitleUnderline {
+	border: 2px solid #b72200;
+	width: 144px;;
+	border-radius: 2px;
+	padding: 0;
+}
+#leftColumn .sectionTitleUnderline {
+	width: 230px;
+}
+.sectionContentTitle {
+	font-size: 18px;
+	font-weight: 300;
+}
+.jobRow {
+	display: table;
+	width: 100%;
+}
+.jobRow > * {
+	display: table-cell;
+	width: 50%;
+	font-weight: 400;
+}
+.location, .jobTime {
+	text-align: right;
+}
+.jobTitle {
+	font-weight: 300;
+}
+ul.contentList {
+	margin-top: 2px;
+	margin-left: 20px;
+}
+.sectionContent > * {
+	margin-top: 2px;
+}
+
+a:hover {
+	color: #b72200 !important;
+}
+a:link {
+	color: inherit;
+	text-decoration: inherit;
+}
+a:visited {
+	color: inherit;
+}
+
