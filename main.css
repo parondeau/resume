@@ -1,13 +1,12 @@
 body {
-	font-size: 16px;
+	font-size: 15px;
 	font-family: "Roboto", sans-serif;
 	font-weight: 100;
 	padding: 5px;
+	height: 1120px;
 	box-sizing: border-box;
-	/*background-color: #eee;*/
 }
 #resume {
-	/*background: #fff;*/
 	height: 1100px;
 	width: 850px;
 	margin: 0 auto;
@@ -17,6 +16,10 @@ strong, .projectTitle {
 }
 header {
 	text-align: center;
+}
+main {
+	height: inherit;
+	width: inherit;
 }
 .noStyleList {
 	list-style: none;
@@ -30,6 +33,7 @@ header {
 }
 #socialLinks {
 	font-size: 15px;
+	margin: 5px auto;
 }
 ul {
 	padding: 0;
@@ -51,6 +55,7 @@ ul {
 	float: left;
 	width: 29%;
 	margin-right: 8px;
+	margin-top: 22px;
 }
 #rightColumn {
 	float: right;
@@ -89,7 +94,7 @@ ul {
 .location, .jobTime {
 	text-align: right;
 }
-.jobTitle, .miscTitle {
+.jobTitle, .miscTitle, .eval {
 	font-weight: 300;
 }
 ul.contentList {
@@ -97,7 +102,7 @@ ul.contentList {
 	margin-left: 20px;
 }
 .sectionContent > * {
-	margin-top: 3px;
+	margin-top: 5px;
 }
 .noTopMargin {
 	margin-top: 0px;
@@ -112,4 +117,3 @@ a:link {
 a:visited {
 	color: inherit;
 }
-
