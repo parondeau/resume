@@ -17,10 +17,6 @@ strong, .projectTitle {
 header {
 	text-align: center;
 }
-main {
-	height: inherit;
-	width: inherit;
-}
 .noStyleList {
 	list-style: none;
 }
