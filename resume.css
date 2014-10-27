@@ -1,0 +1,122 @@
+body {
+	width: 850px;
+	margin: 10px auto;
+	font-family: "Roboto", sans-serif;
+	font-weight: 100;
+}
+strong, .projectTitle {
+	font-weight: 400;
+}
+header {
+	text-align: center;
+}
+.noStyleList {
+	list-style: none;
+}
+#name {
+	font-size: 50px;
+	line-height: 50px;
+}
+#occupation {
+	font-size: 26px;
+}
+#socialLinks {
+	font-size: 15px;
+	margin: 5px auto;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+#socialLinks li {
+	display: inline;
+	margin: 0 5px;
+}
+#socialLinks li i , h4 i {
+	margin-right: 4px;
+}
+
+.mainColor {
+	color: #b72200;
+}
+
+#leftColumn {
+	float: left;
+	width: 29%;
+	margin-right: 8px;
+	margin-top: 22px;
+}
+#rightColumn {
+	float: right;
+	width: 69%;
+	margin-bottom: 10px;
+}
+.sectionContent {
+	/* content in each section */
+	padding: 0 0 0 10px;
+}
+.sectionTitle {
+	margin: 8px 0 0;
+	font-size: 18px;
+}
+.sectionTitleUnderline {
+	border: 2px solid #b72200;
+	width: 144px;;
+	border-radius: 2px;
+	padding: 0;
+}
+#leftColumn .sectionTitleUnderline {
+	width: 230px;
+}
+.sectionContentTitle {
+	font-size: 18px;
+	font-weight: 300;
+}
+.jobRow {
+	display: table;
+	width: 100%;
+}
+.jobRow > * {
+	display: table-cell;
+	width: 50%;
+	font-weight: 400;
+}
+.location, .jobTime {
+	text-align: right;
+}
+.jobTitle, .miscTitle, .eval {
+	font-weight: 300;
+}
+ul.contentList {
+	margin-top: 2px;
+	margin-left: 20px;
+}
+.sectionContent > * {
+	margin-top: 5px;
+}
+.noTopMargin {
+	margin-top: 0px;
+}
+#resume a:hover {
+	color: #b72200 !important;
+}
+a:link {
+	color: inherit;
+	text-decoration: inherit;
+}
+a:visited {
+	color: inherit;
+}
+
+#downloadBtn {
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	padding: 7px;
+	border: 2px solid #b72200;
+	border-radius: 28px;
+}
+#downloadBtn:hover {
+	background-color: #eee;
+	color: black;
+}

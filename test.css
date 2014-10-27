@@ -30,6 +30,15 @@ main {
 	text-align: center;
 	display: table-cell;
 	vertical-align: middle;
+	color: white;
+	position: relative;
+	top: -40px;
+}
+#name {
+	font-size: 60px; /* MEDIA QUERIES */
+}
+#slogan {
+	font-size: 30px; /* MEDIA QUERIES */
 }
 #intro {
 	height: 300px;
