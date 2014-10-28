@@ -1,9 +1,13 @@
 <html>
 	<head>
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<!-- <link rel="stylesheet" type="text/css" href="Font-Awesome/css/font-awesome.min.css"> -->
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300" type="text/css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="resume.css">
+		<!-- // <script src="jquery.min.js"></script> -->
+		<!-- <link rel="stylesheet" type="text/css" href="roboto.css"> -->
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script type="text/javascript" src="main.js"></script>
 		<title>Paul Rondeau</title>
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		<link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png">
@@ -16,185 +20,25 @@
 		<link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-152x152.png">
 	</head>
 	<body>
-		<div id="resume">
-			<header>
-				<div id="name">PAUL <span class="mainColor">RONDEAU</span></div>
-				<div id="occupation">STUDENT</div>
-				<div id="socialLinks">
-					<ul id="socialTopRow">
-						<li><a href="mailto:me@parondeau.com?subject=Hello"><i class="fa fa-envelope"></i>me@parondeau.com</a></li>
-						<li><a href="http://www.parondeau.com"><i class="fa fa-globe"></i>parondeau.com</a></li>
-						<!-- <li><i class="fa fa-phone"></i><span>5195844699</span></li> -->
-					</ul>
-					<ul id="socialBottomRow">
-						<li><a href="http://twitter.com/parondea"><i class="fa fa-twitter"></i>parondea</a></li>
-						<li><a href="http://www.github.com/parondeau"><i class="fa fa-github"></i>parondeau</a></li>
-						<li><a href="http://www.linkedin.com/in/parondeau/"><i class="fa fa-linkedin"></i>parondeau</a></li>
-					</ul>
-				</div>
-			</header>
-			<main>
-				<div id="leftColumn">
-					<div id="education">
-						<h4 class="sectionTitle"><i class="fa fa-angle-double-right"></i>EDUCATION</h4>
-						<div class="sectionTitleUnderline"></div>
-						<div class="sectionContent">
-							<div class="sectionContentTitle">University of Waterloo</div>
-							<span id="educationContent">Bachelor of Applied Science Computer Engineering 2016</span>
-							<div class="sectionContentTitle">Coursera: Stanford University</div>
-							<span id="educationContent">Machine Learning: Oct. 2014 - Dec. 2014</span>
-						</div>
-					</div>
-					<div id="misc">
-						<h4 class="sectionTitle"><i class="fa fa-angle-double-right"></i>INTERESTS &amp; ACTIVITIES</h4>
-						<div class="sectionTitleUnderline"></div>
-						<div class="sectionContent">
-							<ul class="noStyleList">
-								<li><strong>ATHLETICS:</strong> Avid gym goer, Volleyball, Tennis, Ultimate, Ping Pong, Super Smash Bros., NHL12</li>
-								<li><strong>MUSIC:</strong> Indie Enthusiast, Folk Follower, Hip Hop Connoisseur</li>
-								<li><strong>TECH:</strong> Startup world (current events, Velocity, Communitech), HackerNews, TechCrunch, Twitter Followees, Quantified Self</li>
-								<li><strong>TRAVEL:</strong> Currently studying on exchange in Prague, Czech Republic, completed exchange to Madrid, Spain</li>
-								<li><strong>HOBBIES:</strong> Recreational Sports, Reading, Travel, Self-Improvement, Tinkering with Tech, Billiards, Music Discovery</li>
-								<li><strong>FUN FACT:</strong> I participated in a chicken wing eating contest and managed to eat 60 wings before being unable to continue (Leading my team to victory)</li>
-							</ul>
-						</div>
-					</div>
-					<div id="evaluation">
-						<h4 class="sectionTitle"><i class="fa fa-angle-double-right"></i>CO-OP EVALUATION</h4>
-						<div class="sectionTitleUnderline"></div>
-						<div class="sectionContent">
-							<strong>PumpUp:</strong> <span class="eval mainColor">Outstanding</span>
-							<div class="noTopMargin">
-								"Paul was an awesome co-op developer. He got along perfectly with the team, was always a
-								pleasure to be around, and worked long and hard day in, day out. His understanding of technical
-								concepts was great, especially for someone with limited experience, and he was able to quickly
-								pick up the necessary skills. He is a very creative thinker with a huge amount of potential."
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="rightColumn">
-					<div id="skills">
-						<h4 class="sectionTitle"><i class="fa fa-angle-double-right"></i>SKILLS</h4>
-						<div class="sectionTitleUnderline"></div>
-						<div class="sectionContent">
-							<ul class="noStyleList">
-								<li><strong>PROGRAMMING LANGUAGES &amp; TOOLS:</strong> Javascript, Coffeescript, Python, C, C++, HTML5, CSS3, Java, C#, MATLAB, git, SQL, VHDL, ARM Assembly</li>
-								<li><strong>LIBRARIES AND FRAMEWORKS:</strong> jQuery, Backbone, npm, RequireJS, Parse, Django, SASS, Underscore, Mocha, Chai, Grunt, nginx, Gulp, Sinon.JS</li>
-								<li><strong>MISC:</strong> MVCs, Mobile/Web, Front-End, Back-End, Social (FB, Twitter, etc) APIs</li>
-							</ul>
-						</div>
-					</div>
-					<div id="employment">
-						<h4 class="sectionTitle"><i class="fa fa-angle-double-right"></i>EMPLOYMENT</h4>
-						<div class="sectionTitleUnderline"></div>
-						<div class="sectionContent">
-							<div id="oanda">
-								<div class="jobRow">
-									<div class="companyName">OANDA <a href="http://app.oanda.com">(app.oanda.com)</a></div>
-									<div class="location">Toronto, ON</div>
-								</div>
-								<div class="jobRow">
-									<div class="jobTitle mainColor">HTML5 Developer</div>
-									<div class="jobTime">Jan 2014 to Apr 2014</div>
-								</div>
-								<ul class="contentList">
-									<li>Implemented new trade capabilities into the live Forex trading platform using Grunt, Custom APIs, Coffeescript, Backbone, RequireJS, SASS and Handlebars</li>
-									<li>Extensive experience with unit and functional testing with TDD Frameworks: Mocha, Chai, Sinon.JS, Cucumber and Selenium WebDriver</li>
-								</ul>
-							</div>
-							<div id="pumpup">
-								<div class="jobRow">
-									<div class="companyName">PumpUp <a href="http://pumpup.co">(pumpup.co)</a></div>
-									<div class="location">Kitchener, ON</div>
-								</div>
-								<div class="jobRow">
-									<div class="jobTitle mainColor">Software Developer</div>
-									<div class="jobTime">May 2013 to Aug 2013</div>
-								</div>
-								<ul class="contentList">
-									<li>Contributed to building the foundation for a social network within PumpUp; designed/built news feed, liking/commenting features, workout rating algorithm, and infinite scroller using Coffeescript, Parse, Trigger (Native Wrapper), and SASS</li>
-									<li>Created a custom interface to easily share workout progress with Facebook using svg and canvas technologies, Facebook APIs, and native camera software</li>
-									<li>Heavily involved in planning for the company, being one of the first employees; Worked in the startup space: Velocity Garage</li>
-								</ul>
-							</div>
-							<div id="radialpoint">
-								<div class="jobRow">
-									<div class="companyName">Radialpoint</div>
-									<div class="location">Montreal, QC</div>
-								</div>
-								<div class="jobRow">
-									<div class="jobTitle mainColor">Systems Integration Analyst</div>
-									<div class="jobTime">Sep 2012 to Dec 2012</div>
-								</div>
-								<ul class="contentList">
-									<li>Developed a tool to manage remote servers, modernizing the system using new technologies such as Python and Django</li>
-									<li>Solved issues with a Java tool used to remotely connect to home PCs and offer service upgrades for customers' clients</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div id="projects">
-						<h4 class="sectionTitle"><i class="fa fa-angle-double-right"></i>PROJECTS</h4>
-						<div class="sectionTitleUnderline"></div>
-						<div class="sectionContent">
-							<div id="leap">
-								<div class="projectTitle">Leap Motion Tracking Software <a href="https://github.com/parondeau/leapPositionRecorder">(github.com)</a></div>
-								<ul class="contentList">
-									<li>Worked closely with a PhD Candidate at the University of Waterloo developing a application that is used to track a user's hand position, velocity and other associated metrics</li>
-									<li>The data was collected through a web application and exported as a .csv which could then be analyzed to see if there was a correlation between employee injuries and strenuous or repetitive tasks in a workplace</li>
-								</ul>
-							</div>
-							<!-- <div id="personalWebsite">
-								<div class="projectTitle">Personal Website <a href="http://parondeau.com">(parondeau.com)</a></div>
-								<ul class="contentList">
-									<li>Modified forked project on Github to showcase personal contact information as well as design and front-end skills</li>
-									<li>Using Python and Django to serve content hosted on DigitalOcean</li>
-								</ul>
-							</div> -->
-							<div id="skyward">
-								<div class="projectTitle">Skyward Gaming Website <a href="http://onarolldicepoker.com">(onarolldicepoker.com)</a></div>
-								<ul class="contentList">
-									<li>Independently developed a website to showcase my father's casino game</li>
-								</ul>
-							</div>
-							<!-- <div id="pi">
-								<div class="projectTitle">Personal Torrent Client (self-hosted)</div>
-								<ul class="contentList">
-									<li>Configured Raspberry Pi to be accessible remotely from a web interface from which I can download torrents (legal things only of course)</li>
-									<li>Showcase experience with configuring servers and implementing world-wide accessible content</li>
-								</ul>
-							</div> -->
-							<div id="suppl">
-								<div class="projectTitle">Suppl (Webapp work-in-progress)</div>
-								<ul class="contentList">
-									<li>A platform in which users can find supplement deals from numerous sources</li>
-									<li>Using gulp for build and framework management</li>
-									<!-- <li>Using Google Web Fundamentals as a basis and guide for development</li> -->
-								</ul>
-							</div>
-							<div id="tagIt">
-								<div class="projectTitle">TagIt (iOS App work-in-progress, <a href="https://github.com/parondeau/tagIt">github.com</a>)</div>
-								<ul class="contentList">
-									<li>Developing an app in which users can browse or upload street art in any city</li>
-									<li>Custom map view for users to find the locations of street art themselves</li>
-									<li>Using Phonegap and APIs to build native iOS app and will be ported to Android</li>
-								</ul>
-							</div>
-							<!-- <div id="nightCrawler">
-								<div class="projectTitle">NightCrawler (<a href="http://night-crawler.herokuapp.com">NightCrawler</a>, <a href="https://github.com/parondeau/NightCrawlerCard">github.com</a>)</div>
-								<ul class="contentList">
-									<li>Mobile app designed to help people discover nightlife in their area for the Kik Card Platform (cards.kik.com)</li>
-									<li>Used Twitter and Foursquare APIs to determine where people were going out to determine which spots were hot on any given night</li>
-									<li>More importantly, used this data to determine the male-to-female ratio at these venues</li>
-									<li>Ability to 'Kik it' or send club/bar information to friends and decide as a group where to go</li>
-								</ul>
-							</div> -->
-						</div>
-					</div>
-				</div>
-			</main>
-		</div>
-		<a id="downloadBtn" href="http://parondeau.com/parondeau_resume_oct_2014.pdf" download="myimage">Download This!</a>
+		<header>
+			<div id="topText">
+				<div id="name">Paul Rondeau</div>
+				<div id="slogan">ferda</div>
+				<ul id="socialHeader">
+					<li><a href="mailto:me@parondeau.com?subject=Hello" class="fa-envelope"></a></li>
+					<li><a href="http://twitter.com/parondea" class="fa-twitter"></a></li>
+					<li><a href="http://www.github.com/parondeau" class="fa-github"></a></li>
+					<li><a href="http://www.linkedin.com/in/parondeau/" class="fa-linkedin"></a></li>
+				</ul>
+			</div>
+		</header>
+		<main>
+			<section id="intro">
+				<div>TESTING</div>
+			</section>
+		</main>
+		<footer>
+
+		</footer>
 	</body>
 </html>

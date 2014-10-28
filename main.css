@@ -1,7 +1,10 @@
+* {
+	-webkit-box-sizing: border-box; */
+	box-sizing: border-box;
+}
 body {
 	padding: 0px;
 	margin: 0px;
-	box-sizing: border-box;
 	font-size: 18px;
 	font-family: "Roboto", sans-serif;
 	font-weight: 100;
@@ -32,10 +35,11 @@ main {
 	vertical-align: middle;
 	color: white;
 	position: relative;
-	top: -40px;
+	top: -2em;
 }
 #name {
-	font-size: 60px; /* MEDIA QUERIES */
+	font-size: 50px; /* MEDIA QUERIES */
+	line-height: 50px;
 }
 #slogan {
 	font-size: 30px; /* MEDIA QUERIES */
@@ -44,198 +48,37 @@ main {
 	height: 300px;
 }
 #socialHeader {
-	list-style: none;
-	margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-	/*height: 70px;
-	width: 80%;
-	margin: 0 auto;
-	box-sizing: border-box;
-	margin-top: 25px;*/
-}
-/* TRY CHANGING FONT_SIZE OF ICON ON HOVER ONLY*/
-/*#socialHeader div {
-	height: 60px;
-	width: 60px;
-	display: inline-block;
-	margin: 0 10px;
-}*/
-* {
-	-webkit-box-sizing: border-box; */
-	box-sizing: border-box;
+	margin: 1em 0 0 0;
 }
 #socialHeader li {
-	transform: translate3d(0,0,0);
+	height: 3.35em;
+	width: 4.85em;
 	display: inline-block;
-	height: 5.35em;
-	line-height: 5.885em;
-	opacity: 0;
-	position: relative;
-	top: 0;
-	width: 5.35em;
 }
 #socialHeader li a {
 	display: inline-block;
-	position: relative;
-	-webkit-tap-highlight-color: transparent;
 	-webkit-touch-callout: none;
-	border: 0;
-
-	-moz-transition: border-color 0.2s ease-in-out;
-	-webkit-transition: border-color 0.2s ease-in-out;
-	-o-transition: border-color 0.2s ease-in-out;
-	-ms-transition: border-color 0.2s ease-in-out;
-	transition: border-color 0.2s ease-in-out;
-	color: inherit;
-	outline: 0;
-	text-decoration: none;
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-#socialHeader li a i {
-	-moz-transition: all 0.2s ease-in-out;
-	-webkit-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
-	border-radius: 100%;
+#socialHeader li a:hover:before {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+#socialHeader li a:active:before {
+	background-color: rgba(255, 255, 255, 0.35);
+}
+#socialHeader li a:before {
+	height: 2.1em;
+	width: 2.1em;
+	display: block;
+	line-height: 2.1em;
 	border: solid 1px white;
-	display: block;
-	font-size: 1.75em;
-	height: 2.5em;
-	line-height: 2.5em;
-	position: relative;
-	text-align: center;
-	top: 0;
-	width: 2.5em;
-}
-/*#socialHeader a {
-	height: 2.5em;
-	width: 2.5em;
-	display: block;
-	border: 1px solid white;
-	border-radius: 52px;
-	margin: auto;
-	font-size: 1.25em;
-}*/
-/*#socialHeader i {
-	line-height: 2.5em;
-}*/
-/*#socialHeader a:hover {
-	background-color: rgba(255,255,255,0.3);
+	border-radius: 100%;
 	font-size: 1.5em;
-}
-*/
-/*
-body {
-	font-size: 15px;
-	font-family: "Roboto", sans-serif;
-	font-weight: 100;
-	padding: 5px;
-	height: 1120px;
-	box-sizing: border-box;
-}*/
-#resume {
-	height: 1100px;
-	width: 850px;
-	margin: 0 auto;
-}
-strong, .projectTitle {
-	font-weight: 400;
-}
-/*header {
-	text-align: center;
-}*/
-.noStyleList {
-	list-style: none;
-}
-#name {
-	font-size: 50px;
-	line-height: 50px;
-}
-#occupation {
-	font-size: 26px;
-}
-#socialLinks {
-	font-size: 15px;
-	margin: 5px auto;
-}
-ul {
-	padding: 0;
-	margin: 0;
-}
-#socialLinks li {
-	display: inline;
-	margin: 0 5px;
-}
-#socialLinks li i , h4 i {
-	margin-right: 4px;
-}
-
-.mainColor {
-	color: #b72200;
-}
-
-#leftColumn {
-	float: left;
-	width: 29%;
-	margin-right: 8px;
-	margin-top: 22px;
-}
-#rightColumn {
-	float: right;
-	width: 69%;
-}
-.sectionContent {
-	/* content in each section */
-	padding: 0 0 0 10px;
-}
-.sectionTitle {
-	margin: 8px 0 0;
-	font-size: 18px;
-}
-.sectionTitleUnderline {
-	border: 2px solid #b72200;
-	width: 144px;;
-	border-radius: 2px;
-	padding: 0;
-}
-#leftColumn .sectionTitleUnderline {
-	width: 230px;
-}
-.sectionContentTitle {
-	font-size: 18px;
-	font-weight: 300;
-}
-.jobRow {
-	display: table;
-	width: 100%;
-}
-.jobRow > * {
-	display: table-cell;
-	width: 50%;
-	font-weight: 400;
-}
-.location, .jobTime {
-	text-align: right;
-}
-.jobTitle, .miscTitle, .eval {
-	font-weight: 300;
-}
-ul.contentList {
-	margin-top: 2px;
-	margin-left: 20px;
-}
-.sectionContent > * {
-	margin-top: 5px;
-}
-.noTopMargin {
-	margin-top: 0px;
-}
-#resume a:hover {
-	color: #b72200 !important;
+	-webkit-font-smoothing: antialiased;
+	font-family: FontAwesome;
 }
 a:link {
 	color: inherit;
