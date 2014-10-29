@@ -1,15 +1,15 @@
 <html>
 	<head>
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-		<!-- <link rel="stylesheet" type="text/css" href="Font-Awesome/css/font-awesome.min.css"> -->
-		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-		<!-- // <script src="jquery.min.js"></script> -->
-		<!-- <link rel="stylesheet" type="text/css" href="roboto.css"> -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.js"></script>
 		<link rel="stylesheet" type="text/css" href="main.css">
 		<script type="text/javascript" src="main.js"></script>
+		
 		<title>Paul Rondeau</title>
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		
+		<link rel="shortcut icon" href="favicon.ico" type="images/favicon.ico">
 		<link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 		<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
@@ -32,10 +32,65 @@
 				</ul>
 			</div>
 		</header>
+		<div id="gradientTop"></div>
 		<main>
 			<section id="intro">
-				<div>TESTING</div>
+				<div>My name is <span class="mainColor bold">Paul Rondeau</span> and I&#39;m a 3rd year <span class="mainColor bold">Computer Engineering</span> Student at the University of Waterloo. As an intern I have worked for a <span class="mainColor">vast spectrum of companies</span>, ranging from companies with <span class="mainColor">5000+ employees</span> to a <span class="mainColor">startup</span> with only 2 founders</div>
 			</section>
+			<section id="skills">
+				<h1>SKILLS</h1>
+				<div>
+					<div class="skillInner">
+						<canvas id="skillChartPY"></canvas>
+						<div class="skillLabel">Python</div>
+					</div>
+					<div class="skillInner">
+						<canvas id="skillChartJS"></canvas>
+						<div class="skillLabel">Javascript</div>
+					</div>
+					<div class="skillInner">
+						<canvas id="skillChartC"></canvas>
+						<div class="skillLabel">C</div>
+					</div>
+				</div>
+			</section>
+			<section id="current">
+				<div>I am currently studying in Prague, Czech Republic as part of an exchange program and am <span class="mainColor bold">looking for an internship</span> for January - April 2015 </div>
+			</section>
+			<section id="interests">
+				<h1>INTERESTS</h1>
+				<div>
+					<div id="sports" class="interestInner">
+						<div class="iconContainer"><i class="fa fa-2x fa-trophy"></i></div>
+						<label>Sports</label>
+						<div class="interestDescription">
+							An active gym addict; various intramural sports including: (Beach) Volleyball, Tennis, Ultimate, Soccer; A few recreational sports including: billiards, ping pong, beer pong, foosball 
+						</div>
+					</div>
+					<div id="sideProjects" class="interestInner">
+						<a href="http://www.github.com/parondeau"><div class="iconContainer"><i class="fa fa-2x fa-star"></i></div></a>
+						<label>Side Projects</label>
+						<div class="interestDescription">
+							Always working on some sort of side project (check out my <a href="http://www.github.com/parondeau">Github</a> &#9786;); My most recent being this website! Also taken part in various hackathons throughout Canada, a few side projects spawning from these
+						</div>
+					</div>
+					<div id="travel" class="interestInner">
+						<div class="iconContainer"><i class="fa fa-2x fa-plane"></i></div>
+						<label>Travel</label>
+						<div class="interestDescription">
+							Love travelling and discovering new cultures across the globe. Since coming to Prague I've been to Germany, Poland, Spain, Belgium, Netherlands, London and Iceland. Recently travelled to Singapore and Indonesia
+						</div>
+					</div>
+					<div id="smash" class="interestInner">
+						<div class="iconContainer"><i class="fa fa-2x fa-gamepad"></i></div>
+						<label>Super Smash Bros.</label>
+						<div class="interestDescription">
+							Yes, it's true, some call me the champion (n64 version only). In a past life I was known for my Halo and Chell (NHL) abilities as well
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="gud"></section>
 		</main>
 		<footer>
 
