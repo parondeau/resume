@@ -30,7 +30,7 @@ header {
 	top: 0;
 	left: 0;
 	display: table;
-	background-image: url('fussen_germany_trip.jpg');
+	background-image: url('images/fussen_germany_trip.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: -240px;
@@ -156,7 +156,7 @@ main {
 			}
 #resume {
 	height: 469px;
-	background-image: url('workstation_blur.jpg');
+	background-image: url('images/workstation_blur.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
