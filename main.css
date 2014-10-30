@@ -44,11 +44,11 @@ header {
 		top: -2em;
 	}
 		#name {
-			font-size: 50px; /* MEDIA QUERIES */
+			font-size: 50px;
 			line-height: 50px;
 		}
 		#slogan {
-			font-size: 30px; /* MEDIA QUERIES */
+			font-size: 25px;
 		}
 		#socialHeader {
 			padding: 0 10px;
