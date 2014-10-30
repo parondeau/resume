@@ -5,11 +5,11 @@ $(document).ready(function() {
 	// javascript
 	var dataJS = [
 		{
-			value: 85,
+			value: 90,
 			color: "#b72200"
 		}, 
 		{
-			value: 15,
+			value: 10,
 			color: "#eee"
 		}
 	]
@@ -21,6 +21,17 @@ $(document).ready(function() {
 		}, 
 		{
 			value: 25,
+			color: "#eee"
+		}
+	]
+	// HTML/CSS
+	var dataHTML = [
+		{
+			value: 95,
+			color: "#b72200"
+		}, 
+		{
+			value: 5,
 			color: "#eee"
 		}
 	]
@@ -45,6 +56,9 @@ $(document).ready(function() {
 
 	var ctx = $("#skillChartPY").get(0).getContext("2d");
 	var myDoughnutChart = new Chart(ctx).Doughnut(dataPY, options);
+
+	var ctx = $("#skillChartHTML").get(0).getContext("2d");
+	var myDoughnutChart = new Chart(ctx).Doughnut(dataHTML, options);
 
 	var ctx = $("#skillChartC").get(0).getContext("2d");
 	var myDoughnutChart = new Chart(ctx).Doughnut(dataC, options);
