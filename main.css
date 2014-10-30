@@ -44,12 +44,11 @@ header {
 		top: -2em;
 	}
 		#name {
-			font-size: 50px;
+			font-size: 50px; /* MEDIA QUERIES */
 			line-height: 50px;
 		}
 		#slogan {
-			font-size: 20px;
-			margin-top: 5px;
+			font-size: 30px; /* MEDIA QUERIES */
 		}
 		#socialHeader {
 			padding: 0 10px;
@@ -109,7 +108,7 @@ main {
 	margin-top: 1000px;
 	padding: 0;
 	font-size: 30px;
-	color: #222;
+	color: #444;
 	background: #fff;
 	text-align: center;
 	-webkit-box-shadow: rgba(35,35,50,0.8) 0px 0px 11px -2px;
@@ -211,19 +210,33 @@ main {
 		}
 
 
-
+@media only screen 
+and (max-width : 375px) {
+	#slogan {
+		font-size: 15px !important;
+	}
+}
 /* MOBILE */
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 1024px) {
+	* {
+		font-weight: 300;
+	}
+	#name {
+		font-weight: 100;
+	}
+	#slogan {
+		font-size: 20px;
+	}
 	#skills, #current, #interests {
-		font-size: 35px;
+		font-size: 30px;
 	}
 	.interestDescription {
 		font-size: 27px;
 		line-height: 31px;
 	}
 	#interests i {
-		font-size: 1.5em;
+		font-size: 1.8em;
 	}
 }
