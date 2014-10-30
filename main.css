@@ -67,11 +67,8 @@ header {
 					-webkit-user-drag: none;
 					-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 				}
-				#socialHeader li a:hover:before {
+				#socialHeader li a:hover:before, #socialHeader li a:active:before {
 					background-color: rgba(255, 255, 255, 0.2);
-				}
-				#socialHeader li a:active:before {
-					background-color: rgba(255, 255, 255, 0.35);
 				}
 				#socialHeader li a:before {
 					height: 2.1em;
@@ -111,7 +108,7 @@ main {
 	margin-top: 1000px;
 	padding: 0;
 	font-size: 30px;
-	color: #666;
+	color: #222;
 	background: #fff;
 	text-align: center;
 	-webkit-box-shadow: rgba(35,35,50,0.8) 0px 0px 11px -2px;
@@ -189,7 +186,7 @@ main {
 			-webkit-user-drag: none;
 			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 		}
-		#resumeLinkContainer:hover {
+		#resumeLinkContainer:hover,  #resumeLinkContainer:active {
 			background-color: rgba(255, 255, 255, 0.2);
 		}
 		#resumeDownload {
@@ -208,6 +205,24 @@ main {
 			-webkit-user-drag: none;
 			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 		}
-		#resumeDownload:hover {
+		#resumeDownload:hover, #resumeDownload:active {
 			background-color: rgba(255, 255, 255, 0.2);
 		}
+
+
+
+/* MOBILE */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 1024px) {
+	#skills, #current, #interests {
+		font-size: 35px;
+	}
+	.interestDescription {
+		font-size: 27px;
+		line-height: 31px;
+	}
+	#interests i {
+		font-size: 1.5em;
+	}
+}
