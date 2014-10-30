@@ -153,8 +153,14 @@ main {
 				line-height: 20px;
 				margin-top: 7px;
 			}
-
-#gud {
-	height: 1000px;
-	background-color: #ddd;
+#resume {
+	height: 469px;
+	background-image: url('workstation_blur.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
+	#resumeContent {
+		height: 100%;
+		background-color: rgba(0,0,0,0.4);
+	}
