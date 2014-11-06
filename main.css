@@ -49,6 +49,7 @@ header {
 		}
 		#slogan {
 			font-size: 25px;
+			padding: 0 10px;
 		}
 		#socialHeader {
 			padding: 0 10px;
@@ -210,15 +211,15 @@ main {
 		}
 
 
-@media only screen 
+@media only screen
 and (max-width : 375px) {
 	#slogan {
 		font-size: 15px !important;
 	}
 }
 /* MOBILE */
-@media only screen 
-and (min-device-width : 320px) 
+@media only screen
+and (min-device-width : 320px)
 and (max-device-width : 1024px) {
 	* {
 		font-weight: 300;
