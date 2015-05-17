@@ -147,6 +147,13 @@ main {
 				position: relative;
 				top: 14px;
 			}
+			#interests i.fa-plane {
+				 margin-top: 3px;
+			}
+			#interests i.fa-star {
+				 margin-top: 1px;
+			}
+
 			.interestDescription {
 				font-size: 18px;
 				line-height: 20px;
