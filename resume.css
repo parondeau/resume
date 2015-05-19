@@ -2,8 +2,9 @@ body {
 	width: 850px;
 	margin: 10px auto;
 	font-family: "Roboto", sans-serif;
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 16px;
+	line-height: 22px;
 }
 strong, .projectTitle {
 	font-weight: 400;
@@ -35,6 +36,10 @@ ul {
 }
 #socialLinks li i , h4 i {
 	margin-right: 4px;
+}
+
+li {
+	margin: 1px 0;
 }
 
 .mainColor {
@@ -93,8 +98,9 @@ ul.contentList {
 	margin-left: 20px;
 }
 .sectionContent > * {
-	margin-top: 5px;
+	margin-top: 10px;
 }
+
 .noTopMargin {
 	margin-top: 0px;
 }
@@ -122,8 +128,12 @@ a:visited {
 	color: black;
 }
 
-@media only screen 
-and (min-device-width : 320px) 
+#education span {
+	margin-left: 5px;
+}
+
+@media only screen
+and (min-device-width : 320px)
 and (max-device-width : 1024px) {
 	#leftColumn {
 		font-size: 22px;
