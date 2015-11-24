@@ -1,21 +1,25 @@
 * {
-	-webkit-box-sizing: border-box; */
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
 body {
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 	font-size: 18px;
 	font-family: "Lato", sans-serif;
 	font-weight: 100;
 }
+
 a:link {
 	color: inherit;
 	text-decoration: inherit;
 }
+
 a:visited {
 	color: inherit;
 }
+
 h1 {
 	display: block;
 	margin: 50px 0;
@@ -23,6 +27,7 @@ h1 {
 	font-size: 35px;
 	-webkit-font-smoothing: antialiased;
 }
+
 header {
 	height: 100%;
 	width: 100%;
@@ -35,60 +40,70 @@ header {
 	background-size: cover;
 	background-position: -240px;
 }
-	#topText {
-		text-align: center;
-		display: table-cell;
-		vertical-align: middle;
-		color: white;
-		position: relative;
-		top: -2em;
-	}
-		#name {
-			font-size: 50px;
-			line-height: 50px;
-		}
-		#slogan {
-			font-size: 25px;
-			padding: 0 10px;
-		}
-		#socialHeader {
-			padding: 0 10px;
-			margin: 1em 0 0 0;
-		}
-			#socialHeader li {
-				height: 3.35em;
-				width: 4.85em;
-				display: inline-block;
-				margin-bottom: 10px;
-			}
-				#socialHeader li a {
-					display: inline-block;
-					-webkit-touch-callout: none;
-					-webkit-user-select: none;
-					-webkit-user-drag: none;
-					-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-				}
-				#socialHeader li a:hover:before, #socialHeader li a:active:before {
-					background-color: rgba(255, 255, 255, 0.2);
-				}
-				#socialHeader li a:before {
-					height: 2.1em;
-					width: 2.1em;
-					display: block;
-					line-height: 2.1em;
-					border: solid 1px white;
-					border-radius: 100%;
-					font-size: 1.5em;
-					-webkit-font-smoothing: antialiased;
-					font-family: FontAwesome;
-				}
+
+#topText {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+	position: relative;
+	top: -2em;
+}
+
+#name {
+	font-size: 50px;
+	line-height: 50px;
+}
+
+#slogan {
+	font-size: 25px;
+	padding: 0 10px;
+}
+
+#socialHeader {
+	padding: 0 10px;
+	margin: 1em 0 0 0;
+}
+
+#socialHeader li {
+	height: 3.35em;
+	width: 4.85em;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+#socialHeader li a {
+	display: inline-block;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#socialHeader li a:hover:before, #socialHeader li a:active:before {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+#socialHeader li a:before {
+	height: 2.1em;
+	width: 2.1em;
+	display: block;
+	line-height: 2.1em;
+	border: solid 1px white;
+	border-radius: 100%;
+	font-size: 1.5em;
+	-webkit-font-smoothing: antialiased;
+	font-family: FontAwesome;
+}
 
 .mainColor {
 	color: #b72200;
 }
+
 .bold {
 	font-weight: 300;
 }
+
 #gradientTop {
 	height: 1000px;
 	position: absolute;
@@ -104,6 +119,7 @@ header {
 	top: 0;
 	pointer-events: none;
 }
+
 main {
 	position: relative;
 	margin-top: 1000px;
@@ -116,49 +132,59 @@ main {
 	-moz-box-shadow: rgba(35,35,50,0.8) 0px 0px 11px -2px;
 	box-shadow: rgba(35,35,50,0.8) 0px 0px 11px -2px;
 }
-	main section {
-		padding: 0 30px;
-	}
-	#intro, #current {
-		background: #eee;
-		padding: 50px 30px;
-	}
-	#skills, #current, #interests {
-		font-size: 25px;
-	}
-		#skills .skillInner {
-			display: inline-block;
-			margin-bottom: 50px;
-		}
-		#interests .interestInner {
-			display: inline-block;
-			width: 300px;
-			vertical-align: top;
-			margin: 0 5px 50px;
-		}
-			#interests .iconContainer {
-				width: 80px;
-				height: 80px;
-				border: 1px solid #eee;
-				border-radius: 100%;
-				margin: 0px auto;
-			}
-			#interests .iconContainer i {
-				position: relative;
-				top: 14px;
-			}
-			#interests i.fa-plane {
-				 margin-top: 3px;
-			}
-			#interests i.fa-star {
-				 margin-top: 1px;
-			}
 
-			.interestDescription {
-				font-size: 18px;
-				line-height: 20px;
-				margin-top: 7px;
-			}
+main section {
+	padding: 0 30px;
+}
+
+#intro, #current {
+	background: #eee;
+	padding: 50px 30px;
+}
+
+#skills, #current, #interests {
+	font-size: 25px;
+}
+
+#skills .skillInner {
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+#interests .interestInner {
+	display: inline-block;
+	width: 300px;
+	vertical-align: top;
+	margin: 0 5px 50px;
+}
+
+#interests .iconContainer {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #eee;
+	border-radius: 100%;
+	margin: 0px auto;
+}
+
+#interests .iconContainer i {
+	position: relative;
+	top: 14px;
+}
+
+#interests i.fa-plane {
+	 margin-top: 3px;
+}
+
+#interests i.fa-star {
+	 margin-top: 1px;
+}
+
+.interestDescription {
+	font-size: 18px;
+	line-height: 20px;
+	margin-top: 7px;
+}
+
 #resume {
 	height: 469px;
 	background-image: url('images/workstation_blur.jpg');
@@ -166,57 +192,63 @@ main {
 	background-size: cover;
 	background-position: center;
 }
-	#resumeContent {
-		height: 100%;
-		background-color: rgba(0,0,0,0.4);
-		padding-top: 50px;
-		color: white;
-		position: relative;
-	}
-		#resumeContent h1 {
-			margin: 0;
-		}
-		#resumeLinkContainer {
-			height: 200px;
-			width: 200px;
-			line-height: 200px;
-			margin: auto;
-			border-radius: 100%;
-			border: 1px solid white;
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			right: 0;
-			left: 0;
-			font-size: 100px;
-			-webkit-touch-callout: none;
-			-webkit-user-select: none;
-			-webkit-user-drag: none;
-			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-		}
-		#resumeLinkContainer:hover,  #resumeLinkContainer:active {
-			background-color: rgba(255, 255, 255, 0.2);
-		}
-		#resumeDownload {
-			height: 38px;
-			width: 157px;
-			position: absolute;
-			bottom: 13px;
-			right: 15px;
-			margin: auto;
-			font-size: 20px;
-			padding: 5px;
-			border: 1px solid white;
-			border-radius: 38px;
-			-webkit-touch-callout: none;
-			-webkit-user-select: none;
-			-webkit-user-drag: none;
-			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-		}
-		#resumeDownload:hover, #resumeDownload:active {
-			background-color: rgba(255, 255, 255, 0.2);
-		}
 
+#resumeContent {
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+	padding-top: 50px;
+	color: white;
+	position: relative;
+}
+
+#resumeContent h1 {
+	margin: 0;
+}
+
+#resumeLinkContainer {
+	height: 200px;
+	width: 200px;
+	line-height: 200px;
+	margin: auto;
+	border-radius: 100%;
+	border: 1px solid white;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	font-size: 100px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#resumeLinkContainer:hover,  #resumeLinkContainer:active {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+#resumeDownload {
+	height: 38px;
+	width: 157px;
+	position: absolute;
+	bottom: 13px;
+	right: 15px;
+	margin: auto;
+	font-size: 20px;
+	padding: 5px;
+	border: 1px solid white;
+	border-radius: 2px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#resumeDownload:hover, #resumeDownload:active {
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.2);
+}
 
 @media only screen
 and (max-width : 375px) {
@@ -224,6 +256,7 @@ and (max-width : 375px) {
 		font-size: 15px !important;
 	}
 }
+
 /* MOBILE */
 @media only screen
 and (min-device-width : 320px)
@@ -231,19 +264,24 @@ and (max-device-width : 1024px) {
 	* {
 		font-weight: 300;
 	}
+
 	#name {
 		font-weight: 100;
 	}
+
 	#slogan {
 		font-size: 20px;
 	}
+
 	#skills, #current, #interests {
 		font-size: 30px;
 	}
+
 	.interestDescription {
 		font-size: 27px;
 		line-height: 31px;
 	}
+
 	#interests i {
 		font-size: 1.8em;
 	}
