@@ -173,8 +173,9 @@ a:visited {
 	display: none;
 }
 
-#education span {
-	margin-left: 5px;
+#educationContent {
+	padding-left: 5px;
+	margin-top: 0;
 }
 
 /*@media only screen
