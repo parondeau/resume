@@ -146,15 +146,25 @@ main {
 
 section {
 	padding: 30px;
+	min-height: 400px;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	-webkit-align-items: center;
+	justify-content: center;
+	-webkit-justify-content: center;
 }
 
 #intro, #current {
 	background: #eee;
-	padding: 50px 30px;
+	padding: 50px;
+	line-height: 2em;
 }
 
 #projects, #current, #interests {
 	font-size: 25px;
+	-webkit-flex-direction: column;
+	flex-direction: column;
 }
 
 #project_container {
